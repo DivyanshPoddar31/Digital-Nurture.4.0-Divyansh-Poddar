@@ -1,0 +1,13 @@
+The Time Complexity Of Linear Search IS O(N) And for the Best Case Is O(1).
+Now Best Case Time Complexity is O(1) because if we found the element in the first place or better in the first element of the Array Of Product.
+The Worst Case is O(N) because if We have to Traverse till the very Last to find our Element then it would be very Difficult.
+
+The Time Complexity Of Binary Search IS O(Log N) And for the Best Case Is O(1).
+Now For Using Binary Search we should have a Sorted Array as it will not work on Unsorted Array.
+Now Best Case Time Complexity is O(1) because if we found the element in the first Iteration Of Our Program.
+The Worst Case is O(Log N) because if We have to Traverse till the very Last to find our Element then it would be very Difficult.
+
+
+
+
+For Our Site As we Will have Sorted All of Our Products so we will have Binary Search Best for our site as According to Some Researches we will have to Iterate very Few Time Like 30 Times even For A Billion items Which will take few MilliSeconds As we will Compare it using Binary Search And todays Devices Are very Fast.

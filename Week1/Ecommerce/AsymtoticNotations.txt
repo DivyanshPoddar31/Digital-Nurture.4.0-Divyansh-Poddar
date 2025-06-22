@@ -1,0 +1,14 @@
+Asymptotic Notations are notations that help us to understand or better CALCULATE the time of our Program.
+Now there are three types of notations Big O Notation, Big Theta Notation and Big Omega Notation.
+The Big O Notation now as we see gives us The Upper Bound for our program and The Omega gives us The Lower Bound for any Program while The Theta Gives us The average of Both.
+However we commonly use The Big O Notation to Describe our Programs as it gives us The Upper Bound or the Maximum Time our code should take to Give us an Output.
+One more Reason is that The other notations can Change based on the Optimisations we do But the Big O remains the Same so we Use it as a Standard Notation to describe the Time Complexity Or the Time Taken by our program.
+
+
+
+
+There Are Three Cases named The Best case, The Worst Case and The Average Case.
+Best Case denotes the Least Possible Time Taken By our Code to Give us Our Desirable Output.
+Average Case Denotes That the Average case Taken By our Code to Give us Our Desirable Output.
+Worst Case Denotes the Maximum Amount Of Time Taken By Our Code to Give Us Our Desirable Output.
+We generally Write the Codes in the Worst Case First And then Optimise it Accordingly to Give US our Best Case.
