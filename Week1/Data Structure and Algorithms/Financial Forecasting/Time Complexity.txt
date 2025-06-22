@@ -1,0 +1,9 @@
+Each call reduces years by 1.
+
+So total calls = n (years)
+
+Time Complexity = O(n)
+
+Space Complexity = O(n) (due to the call stack).
+
+
