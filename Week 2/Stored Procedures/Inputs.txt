@@ -1,0 +1,52 @@
+For Table Accounts 
+
+
+INSERT INTO Accounts VALUES (101, 'SAVINGS', 5000.00);
+INSERT INTO Accounts VALUES (102, 'SAVINGS', 15000.00);
+INSERT INTO Accounts VALUES (103, 'CURRENT', 20000.00);
+INSERT INTO Accounts VALUES (104, 'SAVINGS', 8000.00);
+INSERT INTO Accounts VALUES (105, 'CURRENT', 12000.00);
+INSERT INTO Accounts VALUES (106, 'SAVINGS', 3000.00);
+INSERT INTO Accounts VALUES (107, 'SAVINGS', 18000.00);
+INSERT INTO Accounts VALUES (108, 'CURRENT', 10000.00);
+INSERT INTO Accounts VALUES (109, 'SAVINGS', 7200.00);
+INSERT INTO Accounts VALUES (110, 'CURRENT', 9200.00);
+INSERT INTO Accounts VALUES (111, 'SAVINGS', 4000.00);
+INSERT INTO Accounts VALUES (112, 'SAVINGS', 6000.00);
+INSERT INTO Accounts VALUES (113, 'SAVINGS', 11000.00);
+INSERT INTO Accounts VALUES (114, 'CURRENT', 7000.00);
+INSERT INTO Accounts VALUES (115, 'SAVINGS', 9800.00);
+INSERT INTO Accounts VALUES (116, 'CURRENT', 15000.00);
+INSERT INTO Accounts VALUES (117, 'SAVINGS', 25000.00);
+INSERT INTO Accounts VALUES (118, 'SAVINGS', 4300.00);
+INSERT INTO Accounts VALUES (119, 'CURRENT', 6000.00);
+INSERT INTO Accounts VALUES (120, 'SAVINGS', 7600.00);
+
+
+
+
+For Table Employees
+
+
+
+-- EmployeeID, Name, DepartmentID, Salary
+INSERT INTO Employees VALUES (1, 'Ravi Sharma', 10, 50000);
+INSERT INTO Employees VALUES (2, 'Anita Desai', 20, 45000);
+INSERT INTO Employees VALUES (3, 'Manoj Verma', 10, 48000);
+INSERT INTO Employees VALUES (4, 'Sonal Mehta', 30, 52000);
+INSERT INTO Employees VALUES (5, 'Rakesh Gupta', 20, 47000);
+INSERT INTO Employees VALUES (6, 'Neha Roy', 10, 43000);
+INSERT INTO Employees VALUES (7, 'Pooja Singh', 30, 55000);
+INSERT INTO Employees VALUES (8, 'Amit Jain', 40, 60000);
+INSERT INTO Employees VALUES (9, 'Seema Kulkarni', 10, 49000);
+INSERT INTO Employees VALUES (10, 'Vikram Sethi', 20, 51000);
+INSERT INTO Employees VALUES (11, 'Tina DSouza', 30, 53000);
+INSERT INTO Employees VALUES (12, 'Deepak Yadav', 10, 46000);
+INSERT INTO Employees VALUES (13, 'Rajeev Bhatia', 40, 61000);
+INSERT INTO Employees VALUES (14, 'Karan Gill', 10, 42000);
+INSERT INTO Employees VALUES (15, 'Rina Sen', 30, 50000);
+INSERT INTO Employees VALUES (16, 'Sameer Khanna', 20, 47000);
+INSERT INTO Employees VALUES (17, 'Aarav Malhotra', 40, 58000);
+INSERT INTO Employees VALUES (18, 'Divya Narayan', 10, 51000);
+INSERT INTO Employees VALUES (19, 'Meera Joshi', 20, 49000);
+INSERT INTO Employees VALUES (20, 'Suresh Raina', 30, 54000);

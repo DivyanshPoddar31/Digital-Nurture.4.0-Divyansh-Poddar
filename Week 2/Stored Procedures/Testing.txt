@@ -1,0 +1,20 @@
+For Scenario 1
+
+BEGIN
+  ProcessMonthlyInterest;
+END;
+/
+
+For Scenario 2
+
+BEGIN
+  UpdateEmployeeBonus(10, 15);
+END;
+/
+
+For Scenario 3
+
+BEGIN
+  TransferFunds(101, 102, 5000);
+END;
+/
