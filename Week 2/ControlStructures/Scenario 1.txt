@@ -1,0 +1,19 @@
+set serveroutput on;
+DECLARE
+  CURSOR cur_customers IS
+    SELECT CustomerID
+    FROM Customers
+    WHERE Age > 60;
+
+BEGIN
+  FOR cust IN cur_customers LOOP
+    UPDATE Loans
+    SET InterestRate = InterestRate - 1
+    WHERE CustomerID = cust.CustomerID;
+
+    DBMS_OUTPUT.PUT_LINE('1% discount applied to CustomerID: ' || cust.CustomerID);
+  END LOOP;
+
+  COMMIT;
+END;
+/
