@@ -1,0 +1,9 @@
+What it is: A Spring project that adds another layer of abstraction on top of JPA and Hibernate.
+
+Purpose: Removes boilerplate code (like DAO creation, CRUD operations).
+
+Uses: JPA (via Hibernate) under the hood.
+
+Key Feature: You just define interfaces like EmployeeRepository and Spring auto-generates implementations.
+
+Think of Spring Data JPA as “JPA made easy” using Spring.

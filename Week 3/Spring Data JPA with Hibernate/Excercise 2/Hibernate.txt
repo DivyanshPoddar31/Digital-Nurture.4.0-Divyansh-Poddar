@@ -1,0 +1,7 @@
+What it is: An ORM tool and JPA implementation.
+
+Purpose: Provides the actual implementation for JPA interfaces.
+
+Also Offers: Features beyond JPA like caching, HQL (Hibernate Query Language), interceptors, etc.
+
+Hibernate is the most popular JPA provider (i.e., concrete library that implements the specification).
