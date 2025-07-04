@@ -1,0 +1,15 @@
+CREATE USER ormlearn IDENTIFIED BY your_password;
+
+GRANT CONNECT, RESOURCE TO ormlearn;
+
+-- Connect as ormlearn user (or use your existing user)
+
+CREATE TABLE country (
+    co_code VARCHAR2(2) PRIMARY KEY,
+    co_name VARCHAR2(50)
+);
+
+INSERT INTO country (co_code, co_name) VALUES ('IN', 'India');
+INSERT INTO country (co_code, co_name) VALUES ('US', 'United States of America');
+
+COMMIT;
